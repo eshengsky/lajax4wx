@@ -1,0 +1,17 @@
+{
+    "name": "lajax4wx",
+    "version": "1.0.0",
+    "description": "lajax4wx - 小程序日志解决方案",
+    "main": "lajax4wx.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "wx",
+        "log",
+        "logger",
+        "ajax"
+    ],
+    "author": "Sky.Sun",
+    "license": "MIT"
+}
