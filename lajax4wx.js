@@ -200,9 +200,9 @@ class Lajax {
         };
 
         const originOnShow = this.app.onShow;
-        this.app.onShow = () => {
+        this.app.onShow = options => {
             this._loadFromStorage();
-            originOnShow();
+            originOnShow(options);
         };
     }
 
